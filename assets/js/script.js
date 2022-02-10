@@ -1,5 +1,3 @@
-let a = [0, 1, 2, 3, NaN];
-
 function newForEach(array,callback,thisArg){
 	for(let i=0; i<array.length; i++){
 		callback(array[i],i,array,thisArg);
